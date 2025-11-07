@@ -1,0 +1,77 @@
+baseURL = "https://thomas.systems"
+title = "Thomas Systems"
+description = "IT engineer with a love for Linux, automation, scripting, cloud systems and coding."
+languageCode = "en-us"
+theme = "hugo-blog-awesome"
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+# Default content language and formatting
+defaultContentLanguage = "en-gb"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[permalinks]
+  posts = "/:slug/"  # article URLs like /articletitlehere
+  pages = "/:slug/"  # article URLs like /articletitlehere
+
+[menu]
+
+  [[menu.main]]
+    pageRef = "/"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    pageRef = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    pageRef = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+# Site parameters
+[params]
+  sitename = "Thomas Systems"
+  defaultColor = "dark"       # dark, light, or auto
+  description = "Personal blog made to solve real-world IT issues."
+  mainSections = ["posts"]
+  toc = true
+  tocOpen = false
+  goToTop = true
+  additionalScripts = ["js/custom.js", "js/custom-2.js"]
+  dateFormat = "2 Jan 2006"
+  rssFeedDescription = "summary"
+
+# Author info
+[params.author]
+  avatar = "avatar.jpg"      # put your avatar in assets folder
+  intro = "Hi, I'm Thomas"
+  name = "Thomas"
+  description = "IT engineer with a passion for Linux, automation, scripting, cloud systems and coding."
+
+# Social icons
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/hugo-sid"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/thomas-reukema/"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"

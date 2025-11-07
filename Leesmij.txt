@@ -1,0 +1,3 @@
+Content en assets folder bevatten alle website files.
+
+./Hugo.exe server --minify
