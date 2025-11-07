@@ -2,7 +2,7 @@ baseURL = "https://thomas.systems"
 title = "Thomas Systems"
 description = "IT engineer with a love for Linux, automation, scripting, cloud systems and coding."
 languageCode = "en-us"
-theme = "hugo-blog-awesome"
+#theme = "hugo-blog-awesome" # uncommented because of line 12 till 15
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
@@ -80,4 +80,5 @@ url = "https://www.linkedin.com/in/thomas-reukema/"
 [[params.socialIcons]]
 name = "Rss"
 url = "/index.xml"
+
 
