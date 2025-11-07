@@ -9,6 +9,11 @@ ignoreErrors = ["additional-script-loading-error"]
 # Default content language and formatting
 defaultContentLanguage = "en-gb"
 
+# Testingggg to skip the upload to themes folder part...
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
 [markup]
   [markup.highlight]
     noClasses = false
@@ -75,3 +80,4 @@ url = "https://www.linkedin.com/in/thomas-reukema/"
 [[params.socialIcons]]
 name = "Rss"
 url = "/index.xml"
+
