@@ -70,15 +70,12 @@ defaultContentLanguage = "en-gb"
 
 # Social icons
 [[params.socialIcons]]
-name = "github"
-url = "https://github.com/hugo-sid"
-
-[[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/thomas-reukema/"
 
 [[params.socialIcons]]
 name = "Rss"
 url = "/index.xml"
+
 
 
